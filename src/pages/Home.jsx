@@ -11,7 +11,7 @@ export default function Home() {
                     muted
                     playbackRate={0.1}
                 >
-                    <source src="../src/assets/production_id_4443250_720p.mp4" type="video/mp4" />
+                    <source src="/production_id_4443250_720p.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <div className="absolute w-full h-full flex flex-col items-center text-center bg-black bg-opacity-50 text-white font-theme-orbitron">
@@ -23,7 +23,7 @@ export default function Home() {
                                 Featured Items
                             </button>
                         </Link>
-                        
+
                         <Link to="/certificates" className="flex items-center">
                             <button className="flex items-center px-5 py-3 text-2xl font-semibold uppercase border-white border-4 border-solid rounded-lg hover:bg-teal-500">
                                 <i className="las la-certificate text-4xl mr-2"></i>

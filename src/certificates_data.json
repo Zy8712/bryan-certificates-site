@@ -5,7 +5,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Chris Croft",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_TeamworkFoundations.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_TeamworkFoundations.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/teamwork-foundations-2020/teamwork-is-the-core",
@@ -20,7 +20,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Annyce Davis",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ProgrammingFoundationsFundamentals.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProgrammingFoundationsFundamentals.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/programming-foundations-fundamentals-3/following-along-with-the-course",
@@ -35,7 +35,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Sasha Vodnik",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ProgrammingFoundationsBeyondtheFundamentals.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProgrammingFoundationsBeyondtheFundamentals.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/programming-foundations-beyond-the-fundamentals/continuing-your-programming-quest-22193990",
@@ -50,7 +50,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Annyce Davis",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_IntroductiontoCareerSkillsinSoftwareDevelopment.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_IntroductiontoCareerSkillsinSoftwareDevelopment.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/introduction-to-career-skills-in-software-development/next-steps",
@@ -65,7 +65,7 @@
         "source" : "freeCodeCamp",
         "issuer" : "freeCodeCamp",
         "author" : "Quincy Larson",
-        "preview_image" : "../src/assets/certificate-images/freeCodeCamp_ResponsiveWebDesign.PNG",
+        "preview_image" : "/certificate-images/freeCodeCamp_ResponsiveWebDesign.PNG",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
@@ -80,7 +80,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "Microsoft",
         "author" : "Courtney Hodge and Microsoft",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_GettingStartedwithMicrosoft365.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_GettingStartedwithMicrosoft365.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/getting-started-with-microsoft-365/intro-to-digital-productivity",
@@ -95,7 +95,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "Microsoft",
         "author" : "Zakiya Mackey and Microsoft",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_OptimizingYourWorkwithMicrosoft365.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_OptimizingYourWorkwithMicrosoft365.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/optimizing-your-work-with-microsoft-365/leveling-up-your-workflow",
@@ -110,7 +110,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "Microsoft",
         "author" : "Microsoft & LinkedIn",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_CareerEssentialsinSystemAdministration.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinSystemAdministration.jpg",
         "featured" : true,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/career-essentials-in-system-administration-by-microsoft-and-linkedin/start-your-sysadmin-journey",
@@ -125,7 +125,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Robin Hunt",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_LearningDataAnalytics1Foundations.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_LearningDataAnalytics1Foundations.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/learning-data-analytics-1-foundations/beginning-your-data-analysis-journey",
@@ -140,7 +140,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Robin Hunt",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_IntroductiontoCareerSkillsinDataAnalytics.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_IntroductiontoCareerSkillsinDataAnalytics.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/introduction-to-career-skills-in-data-analytics/describing-data-best-practices",
@@ -155,7 +155,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "Microsoft",
         "author" : "Microsoft & LinkedIn",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_CareerEssentialsinSoftwareDevelopment.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinSoftwareDevelopment.jpg",
         "featured" : true,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin",
@@ -170,7 +170,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Daniel Stanton",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ProjectManagementFoundationsRequirements.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundationsRequirements.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/project-management-foundations-requirements-2019/managing-requirements-for-successful-projects",
@@ -185,7 +185,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Robin Hunt",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_LearningDataAnalytics2ExtendingandApplyingCoreKnowledge.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_LearningDataAnalytics2ExtendingandApplyingCoreKnowledge.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/learning-data-analytics-part-2-extending-and-applying-core-knowledge/extending-your-data-analysis-skills",
@@ -200,7 +200,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "Microsoft",
         "author" : "Microsoft & LinkedIn",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_CareerEssentialsinDataAnalysis.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinDataAnalysis.jpg",
         "featured" : true,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis-by-microsoft-and-linkedin",
@@ -215,7 +215,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Bonnie Biafore",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ProjectManagementFoundations.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundations.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/project-management-foundations-15528659/deliver-successful-projects",
@@ -230,7 +230,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Daniel Stanton",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ProjectManagementFoundationsTeams.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundationsTeams.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/project-management-foundations-teams-3/tools-for-successful-project-teams",
@@ -245,7 +245,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Natasha Kasimtseva",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ManagingProjectStakeholders.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ManagingProjectStakeholders.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/managing-project-stakeholders-2/stakeholders-drive-project-success",
@@ -260,7 +260,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Doug Rose",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_ProjectManagementFoundationsCommunication.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_ProjectManagementFoundationsCommunication.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/project-management-foundations-communication-2019/communication-skills-benefit-projects",
@@ -275,7 +275,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Ray Villalobos",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_PracticalGitHubCopilot.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_PracticalGitHubCopilot.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/practical-github-copilot",
@@ -290,7 +290,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Ray Villalobos",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_PracticalGitHubProjectManagementandCollaboration.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_PracticalGitHubProjectManagementandCollaboration.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/practical-github-project-management-and-collaboration",
@@ -305,7 +305,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Ray Villalobos",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_PracticalGitHubActions.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_PracticalGitHubActions.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/practical-github-actions",
@@ -320,7 +320,7 @@
         "source" : "LinkedIn Learning",
         "issuer" : "LinkedIn",
         "author" : "Mike Tholfsen",
-        "preview_image" : "../src/assets/certificate-images/LinkedInLearning_NanoTipsforUsingMicrosoftOffice.jpg",
+        "preview_image" : "/certificate-images/LinkedInLearning_NanoTipsforUsingMicrosoftOffice.jpg",
         "featured" : false,
         "links" : {
             "source_link" : "https://www.linkedin.com/learning/nano-tips-for-using-microsoft-office-with-mike-tholfsen",
