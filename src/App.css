@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Orbitron';
+    src: url('./src/assets/fonts/Orbitron-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Oxanium';
+    src: url('./src/assets/fonts/Oxanium-VariableFont_wght.ttf') format('truetype');
+}

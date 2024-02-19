@@ -1,22 +1,19 @@
-import Space_Icon from "../assets/icons/space-svgrepo-com.svg";
-import SocialIconsReduced from "./SocialIconsReduced";
+import Logo from "./navbar-components/Logo";
+import NavbarOptions from "./navbar-components/NavbarOptions";
+import SocialIconsReduced from "./navbar-components/SocialIconsReduced";
 
 export default function Navbar() {
     return (
         <>
-            <div className="w-screen h-24 px-20 border-white border-2 border-solid">
+            <div className="absolute z-50 w-screen h-24 px-16 bg-white bg-opacity-15 font-theme-orbitron">
 
-                <div className="w-full h-full flex justify-between">
-                    <div className="h-full flex items-center">
-                        <img src={Space_Icon} className="h-full mr-3" />
-                        <span className="text-white text-2xl font-semibold">
-                            Bryan's Certificates
-                        </span>
-                    </div>
+                <div className="w-full h-full flex justify-between items-center">
 
-                    <div className="w-48 h-full flex justify-between items-center">
-                        <SocialIconsReduced />
-                    </div>
+                    <Logo />
+
+                    <NavbarOptions />
+
+                    <SocialIconsReduced />
 
                 </div>
 
