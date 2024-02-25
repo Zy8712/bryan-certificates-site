@@ -17,7 +17,7 @@ export default {
         'theme-oxanium': ['Oxanium', 'sans-serif'],
       },
       backgroundImage: {
-        'custom-background' : "url('./src/assets/mesh-609.png')",
+        'custom-background' : "url('./mesh-609.png')",
       },
     },
   },
