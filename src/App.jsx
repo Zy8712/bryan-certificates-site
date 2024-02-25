@@ -2,7 +2,7 @@ import { Router, Route } from 'wouter';
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Featured from "./pages/Home";
+import Featured from "./pages/Featured";
 import Certificates from "./pages/Certificates";
 import Credentials from "./pages/Credentials";
 import Badges from "./pages/Badges";
