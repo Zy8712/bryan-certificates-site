@@ -19,6 +19,12 @@ export default {
       backgroundImage: {
         'custom-background' : "url('/mesh-609.png')",
       },
+      screens: {
+        'custom-xl' : '1200px',
+        'custom-lg' : '900px',
+        'custom-md' : '850px',
+        'custom-sm' : '440px',
+      },
     },
   },
   plugins: [],

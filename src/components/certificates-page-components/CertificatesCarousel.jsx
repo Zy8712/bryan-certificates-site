@@ -27,14 +27,14 @@ export default function CertificatesCarousel() {
     };
 
     return (
-        <div className="w-[640px] h-[494.5px] flex justify-center">
+        <div className="w-[360px] custom-sm:w-[400px] sm:w-[640px] h-[280px] custom-sm:h-[310px] sm:h-[494.5px] flex justify-center">
             <div className="relative w-full h-full flex justify-center rounded-md">
                 {featuredImages.map((image, index) => (
                     <img
                         key={index}
                         src={image.preview_image}
                         alt={`Carousel Image ${index}`}
-                        className="absolute w-full h-full rounded-md transition-opacity ease-in-out duration-1000"
+                        className="absolute w-full h-auto sm:h-full rounded-md transition-opacity ease-in-out duration-1000"
                         style={{ opacity: index === currentImageIndex ? 1 : 0, zIndex: index === currentImageIndex ? 1 : 0 }}
                     />
                 ))}
@@ -51,7 +51,7 @@ export default function CertificatesCarousel() {
                 </div>
 
                 <div
-                    className="absolute z-50 inset-y-0 flex items-center justify-between w-[700px] px-0"
+                    className="absolute z-50 inset-y-0 flex items-center justify-between w-[365px] custom-sm:w-[450px] sm:w-[700px] px-0"
                     onMouseEnter={() => setShowNavigation(true)}
                     onMouseLeave={() => setShowNavigation(false)}
                 >

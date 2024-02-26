@@ -4,7 +4,7 @@ export default function RenderCertificates() {
     return (
         <>
             {certificatesData.map((image, index) => (
-                <div className="w-[360px] h-[470px] flex flex-col rounded-md overflow-hidden cursor-pointer hover:scale-110 transition-all duration-500 ease-in-out">
+                <div className="w-[360px] h-[470px] flex flex-col mb-2 custom-sm:mb-0 rounded-md overflow-hidden cursor-pointer hover:custom-sm:scale-110 transition-all duration-500 ease-in-out">
                     <img
                         key={index}
                         src={image.preview_image}
