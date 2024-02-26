@@ -1,4 +1,4 @@
-import { Link, Route, useLocation } from 'wouter';
+import { Link, useLocation } from 'wouter';
 
 export default function NavbarOptions() {
 

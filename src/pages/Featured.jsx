@@ -11,6 +11,10 @@ export default function Featured() {
                     <h1 className="mt-8 text-white text-center text-8xl font-semibold font-theme-orbitron">
                         Featured
                     </h1>
+                    
+                    <div className="w-full flex justify-center">
+                        <FeaturedBadgesBlock />
+                    </div>
 
                     <div className="w-full flex justify-center">
                         <FeaturedCredentialsBlock />
@@ -18,10 +22,6 @@ export default function Featured() {
 
                     <div className="w-full flex justify-center">
                         <FeaturedCertificatesBlock />
-                    </div>
-
-                    <div className="w-full flex justify-center">
-                        <FeaturedBadgesBlock />
                     </div>
 
                 </div>
