@@ -15,20 +15,32 @@ export default function RenderCertificates() {
                     </div>
 
                     <div className="relative w-full h-[191.84px] bg-gradient-to-b from-light-gray to-very-dark-blue text-center text-white font-theme-oxanium py-1">
-                        <h3 className="mx-5 mt-2 font-bold text-xl">{image.name}</h3>
+                        <h3 className="mx-7 mt-2 font-bold text-xl">{image.name}</h3>
                         <p className="mt-1 font-semibold text-sm">Issue Date: {image.date}</p>
-                        <p className="font-semibold text-sm">Issuer: {image.issuer} (via. {image.source})</p>
-                        <div className="absolute bottom-2 w-full flex justify-between px-8">
-                            <a href={image.links.source_link}
-                                className="font-semibold text-sm"
-                            >
-                                Source Link
+                        <p className="font-semibold text-sm">Issuer: {image.issuer} (via {image.source})</p>
+
+                        <button className="absolute top-0 right-0 w-7 h-7 flex justify-center items-center rounded-full">
+                            <a href={image.links.source_link} target="__blank">
+                                <i className="las la-info-circle text-xl hover:text-teal-400"></i>
                             </a>
-                            <a href={image.links.certificate_link}
-                                className="font-semibold text-sm"
-                            >
-                                Certificate Link
-                            </a>
+                        </button>
+
+                        <div className="absolute bottom-3 w-full flex justify-between px-5 font-semibold text-sm">
+                            <span>Certificates:</span>
+
+                            <p className="w-full flex justify-between ml-5 underline underline-offset-2">
+                                <a href={image.links.certificate_link} className="hover:text-teal-400">
+                                    Main Ver.
+                                </a>
+
+                                <a href={image.links.pmi_link} className={`${image.links.pmi_link != '' ? 'inline' : 'hidden'} hover:text-teal-400 `}>
+                                    PMI Ver.
+                                </a>
+
+                                <a href={image.links.nasba_link} className={`${image.links.nasba_link != '' ? 'inline' : 'hidden'} hover:text-teal-400`}>
+                                    NASBA Ver.
+                                </a>
+                            </p>
                         </div>
                     </div>
 

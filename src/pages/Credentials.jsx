@@ -13,7 +13,7 @@ export default function Credentials() {
 
                     <div className="w-full mt-12 flex flex-col custom-md:flex-row justify-start custom-md:justify-around items-center custom-md:items-start text-white">
 
-                        <div className="mt-5">
+                        <div className="mt-0 custom-sm:mt-5">
                             <CredentialsCarousel />
                         </div>
 
