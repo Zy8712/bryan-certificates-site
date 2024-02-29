@@ -5,7 +5,7 @@ import SocialIcons from '../components/navbar-components/SocialIconsReduced';
 export default function Home() {
     return (
         <>
-            <div className="w-full h-full min-h-screen">
+            <div className="w-full h-full min-h-screen transition-all duration-500 ease-in-out">
                 <div className="relative w-full h-full min-h-screen flex flex-col justify-center items-center text-center text-white font-theme-orbitron py-24">
                     <div className="block custom-sm:hidden">
                         <img src={Space_Icon} alt='' className='w-96' />

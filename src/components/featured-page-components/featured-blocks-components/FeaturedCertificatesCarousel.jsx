@@ -76,10 +76,10 @@ const FeaturedCertificatesCarousel = () => {
 
     return (
         <div className="w-full flex flex-col justify-center items-center relative">
-            <div className={`w-full h-64 flex ${endIndex > 1 ? 'justify-between' : 'justify-center'}`}>
+            <div className={`w-full h-64 flex  ${endIndex === 1 ? 'justify-center' : endIndex === 2 ? 'justify-around' : 'justify-between'}`}>
                 {renderImages()}
 
-                <div className="absolute z-50 -bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                <div className="absolute z-50 -bottom-8 left-1/2 transform -translate-x-1/2 hidden custom-sm:flex space-x-2">
                     {images.map((_, index) => (
                         <button
                             key={index}
@@ -99,7 +99,7 @@ const FeaturedCertificatesCarousel = () => {
                                 (currentImageIndex - 1 + images.length) % images.length
                             )
                         }
-                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none -left-8"
+                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none -left-2 custom-sm-ex:-left-4 md:-left-8"
                     >
                         <i className="las la-angle-left"></i>
                     </button>
@@ -107,7 +107,7 @@ const FeaturedCertificatesCarousel = () => {
                         onClick={() =>
                             setCurrentImageIndex((currentImageIndex + 1) % images.length)
                         }
-                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none -right-8"
+                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none -right-3 custom-sm-ex:-right-4 md:-right-8"
                     >
                         <i className="las la-angle-right"></i>
                     </button>

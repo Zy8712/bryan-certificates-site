@@ -5,7 +5,7 @@ import FeaturedBadgesBlock from "../components/featured-page-components/Featured
 export default function Featured() {
     return (
         <>
-            <div className="w-full h-full min-h-screen pt-24 px-2 pb-14">
+            <div className="w-full h-full min-h-screen pt-24 px-2 pb-14 transition-all duration-500 ease-in-out">
                 <div className="w-full h-full flex flex-col items-center">
 
                     <h1 className="mt-8 text-white text-center text-5xl custom-sm:text-6xl sm:text-7xl md:text-8xl font-semibold font-theme-orbitron">

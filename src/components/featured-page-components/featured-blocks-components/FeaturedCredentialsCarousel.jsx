@@ -12,9 +12,9 @@ const FeaturedCredentialsCarousel = () => {
     // Alters the number of cards loaded upon site load and the number of cards loaded each time (via. infinite scrolling) we react the bottom of the page
     useEffect(() => {
         const handleResize = () => {
-            if (window.innerWidth >= 1110) {
+            if (window.innerWidth >= 1140) {
                 setEndIndex(4); // Update visible cards count for larger screens
-            } else if(window.innerWidth <= 1109 && window.innerWidth >= 890) {
+            } else if(window.innerWidth <= 1139 && window.innerWidth >= 890) {
                 setEndIndex(3); 
             }
             else if (window.innerWidth <= 889 && window.innerWidth >= 630){
@@ -79,10 +79,10 @@ const FeaturedCredentialsCarousel = () => {
 
     return (
         <div className="w-full flex flex-col justify-center items-center relative">
-            <div className={`w-full h-64 flex  ${endIndex > 1 ? 'justify-between' : 'justify-center'}`}>
+            <div className={`w-full h-64 flex  ${endIndex === 1 ? 'justify-center' : endIndex === 2 ? 'justify-around' : 'justify-between'}`}>
                 {renderImages()}
 
-                <div className="absolute z-50 -bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-2">
+                <div className="absolute z-50 -bottom-8 left-1/2 transform -translate-x-1/2 hidden custom-sm-ex:flex space-x-2">
                     {images.map((_, index) => (
                         <button
                             key={index}
@@ -93,16 +93,14 @@ const FeaturedCredentialsCarousel = () => {
                     ))}
                 </div>
 
-                <div
-                    className="absolute inset-y-0 flex items-center justify-between w-full"
-                >
+                <div className="absolute inset-y-0 flex items-center justify-between w-full">
                     <button
                         onClick={() =>
                             setCurrentImageIndex(
                                 (currentImageIndex - 1 + images.length) % images.length
                             )
                         }
-                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none -left-8"
+                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none left-2 custom-sm:left-4 custom-sm-ex:-left-4 md:-left-8"
                     >
                         <i className="las la-angle-left"></i>
                     </button>
@@ -110,7 +108,7 @@ const FeaturedCredentialsCarousel = () => {
                         onClick={() =>
                             setCurrentImageIndex((currentImageIndex + 1) % images.length)
                         }
-                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none -right-8"
+                        className="w-10 h-10 absolute text-white bg-white bg-opacity-50 rounded-full hover:bg-opacity-70 focus:outline-none right-2 custom-sm:right-4 custom-sm-ex:-right-4 md:-right-8"
                     >
                         <i className="las la-angle-right"></i>
                     </button>

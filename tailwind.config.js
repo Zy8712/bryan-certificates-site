@@ -23,6 +23,7 @@ export default {
         'custom-xl' : '1200px',
         'custom-lg' : '900px',
         'custom-md' : '850px',
+        'custom-sm-ex' : '550px',
         'custom-sm' : '440px',
       },
     },
