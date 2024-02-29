@@ -27,14 +27,14 @@ export default function CredentialsCarousel() {
     };
 
     return (
-        <div className="w-96 flex justify-center">
-            <div className="relative w-96 h-96 flex justify-center rounded-md">
+        <div className="w-80 custom-sm:w-96 flex justify-center">
+            <div className="relative w-80 custom-sm:w-96 h-80 custom-sm:h-96 flex justify-center rounded-md">
                 {featuredImages.map((image, index) => (
                     <img
                         key={index}
                         src={image.preview_image}
                         alt={`Carousel Image ${index}`}
-                        className="absolute w-96 h-96 rounded-md transition-opacity ease-in-out duration-1000"
+                        className="absolute w-80 custom-sm:w-96 h-80 custom-sm:h-96 rounded-md transition-opacity ease-in-out duration-1000"
                         style={{ opacity: index === currentImageIndex ? 1 : 0, zIndex: index === currentImageIndex ? 1 : 0 }}
                     />
                 ))}
@@ -51,7 +51,7 @@ export default function CredentialsCarousel() {
                 </div>
 
                 <div
-                    className="absolute z-50 inset-y-0 flex items-center justify-between w-[430px] px-0"
+                    className="absolute z-50 inset-y-0 flex items-center justify-between w-[375px] custom-sm:w-[430px] px-0"
                     onMouseEnter={() => setShowNavigation(true)}
                     onMouseLeave={() => setShowNavigation(false)}
                 >
