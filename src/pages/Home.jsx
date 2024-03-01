@@ -6,12 +6,12 @@ export default function Home() {
     return (
         <>
             <div className="w-full h-full min-h-screen transition-all duration-500 ease-in-out">
-                <div className="relative w-full h-full min-h-screen flex flex-col justify-center items-center text-center text-white font-theme-orbitron py-24">
-                    <div className="block custom-sm:hidden">
-                        <img src={Space_Icon} alt='' className='w-96' />
+                <div className="relative w-full h-full min-h-screen flex flex-col justify-center items-center text-center text-white font-theme-orbitron py-16">
+                    <div className="w-96 h-96 block custom-sm:hidden">
+                        <img src={Space_Icon} alt='' className='w-96 h-96' />
                     </div>
                     
-                    <h1 className="mt-0 custom-sm:mt-10 text-[40px] custom-sm:text-5xl sm:text-6xl custom-md:text-[80px] lg:text-8xl font-bold custom-sm:font-semibold leading-[48px] custom-sm:leading-[56px] sm:leading-[72px] custom-md:leading-[100px] lg:leading-[120px]">
+                    <h1 className="w-full mt-0 custom-sm:mt-10 text-[40px] custom-sm:text-5xl sm:text-6xl custom-md:text-[80px] lg:text-8xl font-bold custom-sm:font-semibold leading-[48px] custom-sm:leading-[56px] sm:leading-[72px] custom-md:leading-[100px] lg:leading-[120px]">
                         Explore Bryan's <span className="text-rose-400">Certificates</span> and <span className="text-rose-400">Digital Credentials</span>
                     </h1>
 

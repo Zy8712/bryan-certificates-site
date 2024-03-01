@@ -7,7 +7,7 @@ export default function Logo() {
             <Link to="/">
                 <div className="h-24 flex items-center">
                     <img src={Space_Icon} alt="" className="hidden custom-sm:inline h-full mr-3" />
-                    <span className="text-white text-xl custom-sm:text-2xl font-semibold hover:text-teal-400">
+                    <span className="w-36 custom-sm:w-40 custom-sm-ex:w-[270px] text-white text-xl custom-sm:text-2xl font-semibold hover:text-teal-400">
                         Bryan's Certificates
                     </span>
                 </div>
