@@ -328,5 +328,35 @@
             "pmi_link" : "",
             "nasba_link" : ""
         }
+    },
+    {
+        "name" : "Communicating with Confidence (2015)",
+        "date" : "February 24th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Jeff Ansel",
+        "preview_image" : "/certificate-images/LinkedInLearning_CommunicatingwithConfidence.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/communicating-with-confidence-2015",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/9f2619506bc06f5b73ff9b7f750dd91df529e1dae0ea55444e779c4cf65c4310",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Inclusive Tech: Conducting Humane Code Reviews",
+        "date" : "February 26th, 2024",
+        "source" : "LinkedIn Learning",
+        "issuer" : "LinkedIn",
+        "author" : "Adrienne Braganza Tacke",
+        "preview_image" : "/certificate-images/LinkedInLearning_ConductingHumaneCodeReviews.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/inclusive-tech-conducting-humane-code-reviews",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/69f3bf839bb06563661a9a1ddcce3a330cb88630aaf82e7cfccb9ea182b6e7ab",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
     }
 ]

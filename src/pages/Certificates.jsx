@@ -15,7 +15,7 @@ export default function Certificates() {
                         <CertificatesCarousel />
                     </div>
 
-                    <div className="mt-20 w-full flex flex-wrap justify-around gap-1 custom-sm:gap-4 text-white">
+                    <div className="mt-20 w-full flex flex-wrap justify-around gap-y-1 custom-sm:gap-y-8 text-white">
                         <RenderCertificates />
                     </div>
 
