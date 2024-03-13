@@ -1,4 +1,4 @@
-import credentialData from "../../credentials_data.json";
+import credentialData from "./credentials_data.json";
 
 export default function RenderCredentials() {
     return (

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import credentialData from "../../credentials_data.json";
+import credentialData from "./credentials_data.json";
 
 export default function CredentialsCarousel() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

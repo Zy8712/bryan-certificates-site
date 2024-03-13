@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import certificatesData from "../../../certificates_data.json";
+import certificatesData from "../../certificates-page-components/certificates_data.json";
 
 const FeaturedCertificatesCarousel = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

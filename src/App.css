@@ -19,7 +19,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, white), color-stop(1, navy));
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(.5, white), color-stop(1, teal));
     border-radius: 10px;
 }
 

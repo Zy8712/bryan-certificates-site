@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "Responsive Web Design",
+        "date" : "October 2nd, 2023",
+        "source" : "freeCodeCamp",
+        "issuer" : "freeCodeCamp",
+        "author" : "Quincy Larson",
+        "preview_image" : "/certificate-images/freeCodeCamp_ResponsiveWebDesign.PNG",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+            "certificate_link" : "https://www.freecodecamp.org/certification/bryan-li712/responsive-web-design",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    }
+]

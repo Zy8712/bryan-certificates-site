@@ -1,0 +1,47 @@
+[
+    {
+        "name" : "Career Essentials in System Administration",
+        "date" : "October 11th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Microsoft & LinkedIn",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinSystemAdministration.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/career-essentials-in-system-administration-by-microsoft-and-linkedin/start-your-sysadmin-journey",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/ab8ff9e0542d747e9730b4da86da51944153618487ea1bebca9cf6f29f8e2739",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Career Essentials in Software Development",
+        "date" : "October 11th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Microsoft & LinkedIn",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinSoftwareDevelopment.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/paths/career-essentials-in-software-development-by-microsoft-and-linkedin",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/6ccbca705b7fa01ed150ef54b6c0a84bb0aa80804b0092ec718241395999f50d",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "Career Essentials in Data Analysis",
+        "date" : "October 13th, 2023",
+        "source" : "LinkedIn Learning",
+        "issuer" : "Microsoft",
+        "author" : "Microsoft & LinkedIn",
+        "preview_image" : "/certificate-images/LinkedInLearning_CareerEssentialsinDataAnalysis.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "https://www.linkedin.com/learning/paths/career-essentials-in-data-analysis-by-microsoft-and-linkedin",
+            "certificate_link" : "https://www.linkedin.com/learning/certificates/c3e7ee17d04bb713324e41abc086a47ee866afa314ea38774e6e8afc3863153c",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    }
+]

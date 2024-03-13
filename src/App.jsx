@@ -9,6 +9,7 @@ import Badges from "./pages/Badges";
 import Footer from './components/Footer';
 
 import "./App.css"
+import JumpToTopButton from './components/JumpToTopButton';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/certificates" component={Certificates} />
         <Route path="/credentials" component={Credentials} />
         <Route path="/badges" component={Badges} />
+        <JumpToTopButton />
         <Footer />
       </Router>
     </>
