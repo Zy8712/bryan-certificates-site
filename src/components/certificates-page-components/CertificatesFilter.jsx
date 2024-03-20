@@ -1,4 +1,6 @@
-export default function CertificatesFilter({ activeFilter, toggleFilter }){
+import { useState } from "react";
+
+export default function CertificatesFilter({ activeFilter, toggleFilter }) {
 
     const filterOptions = [
         { iconClass: "las la-expand", filterText: "All" },
@@ -9,7 +11,6 @@ export default function CertificatesFilter({ activeFilter, toggleFilter }){
     ];
 
     const renderFilters = () => {
-
         return filterOptions.map((filter, index) => (
             <>
                 <button aria-label={`${filter.filterText} Filter Option`} onClick={() => toggleFilter(index)}
@@ -21,11 +22,36 @@ export default function CertificatesFilter({ activeFilter, toggleFilter }){
         ));
     };
 
-    return(
+
+    const renderToggleOptions = () => {
+        const option = filterOptions[activeFilter];
+        return (
+            <>
+                <span className="w-full h-full">
+                    <i className={`${option.iconClass} mr-1 text-lg`}></i>
+                    {option.filterText}
+                </span>
+            </>
+        );
+    };
+
+    const [currentIndex, setCurrentIndex] = useState(0);
+    const toggleMobileFilter = () => {
+        setCurrentIndex(currentIndex === 3 ? 0 : currentIndex + 1);
+        toggleFilter(currentIndex);
+    };
+
+    return (
         <>
             <div className="h-12 w-full flex justify-center items-center">
-                <div className="w-[550px] h-full flex justify-around items-center">
+                <div className="w-[550px] h-full hidden sm:flex justify-around items-center">
                     {renderFilters()}
+                </div>
+                <div className="w-64 h-9 flex sm:hidden justify-between items-center text-white text-base font-medium font-theme-oxanium">
+                    <span className="w-36 h-full flex justify-center items-center">Filter Selected: </span>
+                    <button onClick={toggleMobileFilter} className="w-28 h-full bg-gradient-to-tr from-blue-400 to-teal-400 hover:border-2 border-white border-solid border-0 rounded-md">
+                        {renderToggleOptions()}
+                    </button>
                 </div>
             </div>
         </>
