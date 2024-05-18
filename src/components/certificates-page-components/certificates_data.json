@@ -358,5 +358,35 @@
             "pmi_link" : "",
             "nasba_link" : ""
         }
+    },
+    {
+        "name" : "Introduction to SQL",
+        "date" : "April 16th, 2024",
+        "source" : "Sololearn",
+        "issuer" : "Sololearn",
+        "author" : "Yeva Hyusyan",
+        "preview_image" : "/certificate-images/Sololearn_IntroductiontoSQL.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.sololearn.com/en/learn/courses/sql-introduction",
+            "certificate_link" : "https://www.sololearn.com/en/certificates/CC-F21UYXLD",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
+    },
+    {
+        "name" : "SQL Intermediate",
+        "date" : "April 29th, 2024",
+        "source" : "Sololearn",
+        "issuer" : "Sololearn",
+        "author" : "Yeva Hyusyan",
+        "preview_image" : "/certificate-images/Sololearn_SQLIntermediate.jpg",
+        "featured" : false,
+        "links" : {
+            "source_link" : "https://www.sololearn.com/en/learn/courses/sql-intermediate",
+            "certificate_link" : "https://www.sololearn.com/en/certificates/CC-BWLIFCSA",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
     }
 ]
