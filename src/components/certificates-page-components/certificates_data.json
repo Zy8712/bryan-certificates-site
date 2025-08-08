@@ -388,5 +388,20 @@
             "pmi_link" : "",
             "nasba_link" : ""
         }
+    },
+        {
+        "name" : "Google Analytics Certification",
+        "date" : "July 6th, 2024",
+        "source" : "Google",
+        "issuer" : "Google",
+        "author" : "",
+        "preview_image" : "/certificate-images/g850dlol_1751783789153.jpg",
+        "featured" : true,
+        "links" : {
+            "source_link" : "",
+            "certificate_link" : "https://skillshop.credential.net/09316729-8cbb-4e32-82ef-512e3dd3bfe9#acc.onILFHw3",
+            "pmi_link" : "",
+            "nasba_link" : ""
+        }
     }
 ]

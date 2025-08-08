@@ -23,6 +23,12 @@
 <br />
 <br />
 
+<div align="center">
+    <img src="./public/credential-images/amplitude-foundations-analytics.png" width="200px"/>
+    <img src="./public/certificate-images/g850dlol_1751783789153.jpg" width="300px" />
+    <img src="./public/credential-images/7a4fe3be-f344-4b62-b0e7-482a75d425f9.png" width="200px" />
+</div>
+
 # Pagespeed Insights Score
 <div align="center">
     <h2>Desktop Ver.</h2>
