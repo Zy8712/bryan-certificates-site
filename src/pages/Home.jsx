@@ -1,6 +1,8 @@
 import { Link } from 'wouter';
 import Space_Icon from "../assets/icons/space-svgrepo-com.svg";
 import SocialIcons from '../components/navbar-components/SocialIconsReduced';
+import GA4_Cred from "../assets/7a4fe3be-f344-4b62-b0e7-482a75d425f9.png";
+import Amp_Cred from "../assets/amplitude-foundations-analytics.png";
 
 export default function Home() {
     return (
@@ -36,7 +38,7 @@ export default function Home() {
                     </div>
 
                     <a href="https://skillshop.credential.net/09316729-8cbb-4e32-82ef-512e3dd3bfe9#acc.onILFHw3" className="w-40 h-40 absolute bottom-1 left-1">
-                        <img src="/public/credential-images/7a4fe3be-f344-4b62-b0e7-482a75d425f9.png" />
+                        <img src={GA4_Cred} />
                         <div className="absolute z-30 -top-1 -right-5 w-20 bg-gradient-to-tr from-blue-400 to-purple-400 rounded-xl">
                             <span>NEW</span>
                             <i className="las la-external-link-alt ml-1"></i>
@@ -44,7 +46,7 @@ export default function Home() {
                     </a>
 
                     <a href="https://www.credly.com/badges/c7d7c4aa-5ce8-425a-82ce-c6ee7dd0a845" className="w-40 h-40 absolute bottom-1 right-1">
-                        <img src="/public/credential-images/amplitude-foundations-analytics.png" />
+                        <img src={Amp_Cred} />
                         <div className="absolute z-30 -top-1 -left-5 w-20 bg-gradient-to-tr from-blue-400 to-purple-400 rounded-xl">
                             <span>NEW</span>
                             <i className="las la-external-link-alt ml-1"></i>
