@@ -10,7 +10,7 @@ export default function Home() {
                     <div className="w-96 h-96 block custom-sm:hidden">
                         <img src={Space_Icon} alt='' className='w-96 h-96' />
                     </div>
-                    
+
                     <h1 className="w-full mt-0 custom-sm:mt-10 text-[40px] custom-sm:text-5xl sm:text-6xl custom-md:text-[80px] lg:text-8xl font-bold custom-sm:font-semibold leading-[48px] custom-sm:leading-[56px] sm:leading-[72px] custom-md:leading-[100px] lg:leading-[120px]">
                         Explore Bryan's <span className="text-rose-400">Certificates</span> and <span className="text-rose-400">Digital Credentials</span>
                     </h1>
@@ -34,6 +34,22 @@ export default function Home() {
                     <div className="absolute z-50 bottom-6 xl:hidden">
                         <SocialIcons />
                     </div>
+
+                    <a href="https://skillshop.credential.net/09316729-8cbb-4e32-82ef-512e3dd3bfe9#acc.onILFHw3" className="w-40 h-40 absolute bottom-1 left-1">
+                        <img src="/public/credential-images/7a4fe3be-f344-4b62-b0e7-482a75d425f9.png" />
+                        <div className="absolute z-30 -top-1 -right-5 w-20 bg-gradient-to-tr from-blue-400 to-purple-400 rounded-xl">
+                            <span>NEW</span>
+                            <i className="las la-external-link-alt ml-1"></i>
+                        </div>
+                    </a>
+
+                    <a href="https://www.credly.com/badges/c7d7c4aa-5ce8-425a-82ce-c6ee7dd0a845" className="w-40 h-40 absolute bottom-1 right-1">
+                        <img src="/public/credential-images/amplitude-foundations-analytics.png" />
+                        <div className="absolute z-30 -top-1 -left-5 w-20 bg-gradient-to-tr from-blue-400 to-purple-400 rounded-xl">
+                            <span>NEW</span>
+                            <i className="las la-external-link-alt ml-1"></i>
+                        </div>
+                    </a>
                 </div>
             </div>
         </>
